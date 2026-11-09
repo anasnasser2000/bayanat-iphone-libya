@@ -1,0 +1,20 @@
+{
+  "name": "bayanat-iphone-libya",
+  "version": "1.0.0",
+  "private": true,
+  "description": "مسابقات ايفونات-ليبيا",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server/index.js",
+    "migrate": "node scripts/migrate.js",
+    "create-admin": "node scripts/create-admin.js",
+    "import-questions": "node scripts/import-questions.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "pg": "^8.13.1"
+  }
+}

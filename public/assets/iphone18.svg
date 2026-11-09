@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2d3d"/>
+      <stop offset="50%" stop-color="#141622"/>
+      <stop offset="100%" stop-color="#0b0c14"/>
+    </linearGradient>
+    <linearGradient id="goldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe57f"/>
+      <stop offset="50%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#996515"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="280" height="530" rx="45" fill="url(#bodyGrad)" stroke="url(#goldRim)" stroke-width="5"/>
+  <rect x="22" y="22" width="256" height="506" rx="36" fill="url(#screenGrad)"/>
+  <rect x="105" y="32" width="90" height="24" rx="12" fill="#000000"/>
+  <circle cx="150" cy="220" r="65" fill="none" stroke="url(#goldRim)" stroke-width="3" opacity="0.8"/>
+  <text x="150" y="215" text-anchor="middle" fill="#FFD700" font-family="sans-serif" font-weight="bold" font-size="28">iPhone 18</text>
+  <text x="150" y="245" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="14">Pro Max - 512GB</text>
+  <text x="150" y="300" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="13">مسابقات ايفونات-ليبيا 🇱🇾</text>
+  <rect x="105" y="515" width="90" height="4" rx="2" fill="#FFFFFF" opacity="0.6"/>
+</svg>
